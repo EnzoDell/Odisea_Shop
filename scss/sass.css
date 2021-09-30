@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ffd466;
+  text-align: left;
+}
+
+body {
+  background-color: #FFF4E0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -ms-grid;
+  display: grid;
+}
+
+.pie-pagina {
+  width: 100%;
+  background-color: #ffc32b;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+  color: #FFF;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #FFF;
+  margin-right: 10px;
+  background-color: #fdd778;
+  text-align: center;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: #ffc32b;
+}
+
+.pie-pagina .grupo-2 {
+  background-color: #ffbc14;
+  padding: 15px 10px;
+  text-align: center;
+  color: #FFF;
+}
+
+.pie-pagina .grupo-2 small {
+  font-size: 15px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.footer-ima {
+  width: 300px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ulNav {
+  list-style: none;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+}
+
+.liNav {
+  text-align: center;
+  margin: 0px 10px 0px 0px;
+  display: inline;
+  font-size: 110%;
+}
+
+.liNav .navLink {
+  text-decoration: none;
+  color: white;
+}
+
+.liNav a:hover {
+  background-color: #fad67b;
+}
+
+.navLink {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  color: white;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.divIcon {
+  display: inline;
+}
+
+.iconUl {
+  list-style: none;
+  text-align: right;
+  text-decoration: none;
+}
+
+.iconNav {
+  text-align: right;
+  margin: 0px 10px 0px 0px;
+  display: inline;
+  font-size: 110%;
+  text-decoration: none;
+}
+
+.iconNav .navIcon {
+  text-decoration: none;
+  color: white;
+}
+
+.navIcon {
+  display: inline;
+  font-size: 2rem;
+  color: white;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.logoOdisea {
+  width: 100px;
+  height: 75px;
+}
+
+.tarjeta {
+  background-color: #fdd778;
+  width: 400px;
+  height: 300px;
+  padding: 40px;
+}
+
+.tarjeta__article__inicio {
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.pUno {
+  font-family: 'Noto Sans TC', sans-serif;
+  text-align: center;
+  width: 90%;
+  margin: 0% auto;
+}
+
+.odiseaLogo {
+  display: block;
+  margin: 0% auto;
+  width: 40%;
+  height: 40%;
+}
+
+.tarjeta__article__h2Calidad {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+.h2InicioCalidad {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+}
+
+.tarjeta__article__h3Calidad {
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.h2InicioEnvio {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+}
+
+.h3Envios {
+  font-family: 'Noto Sans TC', sans-serif;
+  width: 90%;
+  text-align: center;
+}
+
+.tarjetaAbajoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 50px 0;
+}
+
+.flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flexContainerPrinci {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+dt {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+dd {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.h1Pro {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+.tarjetaPro {
+  background-color: #fdd778;
+  width: 360px;
+  height: 320px;
+  padding: 40px;
+}
+
+.imgPro {
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+  position: relative;
+  left: 22%;
+}
+
+.textList {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  position: relative;
+}
+
+.precio {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  position: relative;
+}
+
+.contact {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.contacH3 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.head {
+  background-color: #ffd466;
+  border-radius: 5px;
+  margin-top: -40px;
+}
+
+.effect-1 {
+  border: 0;
+  outline: none;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.effect-1 ~ .Focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #ffd466;
+  -webkit-transition: 0,4s;
+  transition: 0,4s;
+}
+
+.effect-1:focus ~ .Focus-border {
+  width: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  left: 0;
+}
+
+.btn1 {
+  background-color: #ffd466;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 145px;
+}
+
+.h1AboutMe {
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+  position: relative;
+  bottom: -50px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.articleAM {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Bebas Neue", cursive;
+}
+
+.gridContainerAboutMe {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+  grid-column-gap: 5%;
+  text-align: center;
+  padding: 10%;
+}
+
+.grupo-pagos h1 {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+.tarjetaPagos {
+  background-color: #fdd778;
+  width: 360px;
+  height: 320px;
+  padding: 40px;
+}
+
+.imgPagos {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 14%;
+}
+
+.imgPagos2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 14%;
+}
+
+@media only screen and (max-width: 480px) {
+  .tarjetaAbajoContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tarjeta {
+    top: 0;
+    left: 0;
+  }
+  footer {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .tarjetaAbajoContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tarjeta {
+    top: 0;
+    left: 0;
+  }
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+/*# sourceMappingURL=sass.css.map */

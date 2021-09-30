@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Cambios Generales */
+nav {
+  background-color: #ffd466;
+  text-align: left;
+}
+
+body {
+  background-color: #FFF4E0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column; }
+
+.pie-pagina {
+  width: 100%;
+  background-color: #ffc32b;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.footer-ima{
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+  color: #FFF;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #FFF;
+  margin-right: 10px;
+  background-color:#fdd778;
+  text-align: center;
+  transition: all 300ms ease;
+} 
+
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: #ffc32b;
+}
+
+.pie-pagina .grupo-2 {
+  background-color: #ffbc14;
+  padding: 15px 10px;
+  text-align: center;
+  color: #FFF;
+}
+
+.pie-pagina .grupo-2 small {
+  font-size: 15px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+/* Pagina Inicio */
+/* Grid Inicio */
+.content {
+  display: grid; 
+}
+
+/* Nav */
+.ulNav {
+  list-style: none;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+}
+
+.liNav {
+  text-align: center;
+  margin: 0px 10px 0px 0px;
+  display: inline;
+  font-size: 110%;
+}
+
+.liNav .navLink {
+  text-decoration: none;
+  color: white;
+}
+
+.navLink {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  color: white;
+  transition: all 300ms ease
+}
+
+.liNav a:hover {
+  background-color: #fad67b; }
+
+
+.divIcon {
+  display: inline; 
+}
+
+.iconUl {
+  list-style: none;
+  text-align: right;
+  text-decoration: none; 
+}
+
+.iconNav {
+  text-align: right;
+  margin: 0px 10px 0px 0px;
+  display: inline;
+  font-size: 110%;
+  text-decoration: none; 
+}
+
+.navIcon {
+  display: inline;
+  font-size: 2rem;
+  color: white;
+  justify-content: right; 
+}
+
+.iconNav .navIcon {
+  text-decoration: none;
+  color: white;
+}
+
+.logoOdisea {
+  width: 100px;
+  height: 75px; 
+}
+
+/* Seccion Quienes somos? */
+.tarjeta {
+  background-color: #fdd778;
+  width: 400px;
+  height: 300px;
+  padding: 40px; 
+}
+
+.tarjeta__article__inicio {
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem; 
+}
+
+.pUno {
+  font-family: 'Noto Sans TC', sans-serif;
+  text-align: center;
+  width: 90%;
+  margin: 0% auto; 
+}
+
+.odiseaLogo {
+  display: block;
+  margin: 0% auto;
+  width: 40%;
+  height: 40%; 
+}
+
+/* Seccion Calidad */
+.tarjeta__article__h2Calidad {
+  text-align: center;
+  font-family: "Bebas Neue", cursive; 
+}
+
+.h2InicioCalidad {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem; }
+
+.tarjeta__article__h3Calidad {
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif; }
+
+/* Seccion Envios */
+.h2InicioEnvio {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem; }
+
+.h3Envios {
+  font-family: 'Noto Sans TC', sans-serif;
+  width: 90%;
+  text-align: center; }
+
+/* Flexbox Inicio */
+.tarjetaAbajoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 50px 0; }
+
+.flexContainer {
+  display: flex;
+  justify-content: center; }
+
+.flexContainerPrinci {
+  display: flex;
+  justify-content: center; }
+
+/* Listas Pagina Inicio */
+li, dt, dd {
+  font-family: 'Noto Sans TC', sans-serif; }
+
+/* Pagina Productos */
+.h1Pro {
+  text-align: center;
+  font-family: "Bebas Neue", cursive; }
+
+.tarjetaPro {
+  background-color: #fdd778;
+  width: 360px;
+  height: 320px;
+  padding: 40px; }
+
+.imgPro {
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+  position: relative;
+  left: 22%; }
+
+.textList, .precio {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  position: relative; }
+
+/* Pagina Contacto */
+.contact {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh; }
+
+.contacH3 {
+  font-family: "Bebas Neue", cursive; }
+
+.head {
+  background-color: #ffd466;
+  border-radius: 5px;
+  margin-top: -40px; }
+
+.effect-1 {
+  border: 0;
+  outline: none;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc; }
+
+.effect-1 ~ .Focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #ffd466;
+  transition: 0,4s; }
+
+.effect-1:focus ~ .Focus-border {
+  width: 100%;
+  transition: 0.4s;
+  left: 0; }
+
+.btn1 {
+  background-color: #ffd466;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 145px; }
+
+/* Pagina AboutMe */
+.h1AboutMe {
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+  position: relative;
+  bottom: -50px; }
+
+.articleAM {
+  font-family: 'Noto Sans TC', sans-serif; }
+
+/* Grid AboutMe */
+.gridContainerAboutMe {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 5%;
+  text-align: center;
+  padding: 10%; }
+
+.articleAM, .h1AboutMe {
+  font-family: "Bebas Neue", cursive; }
+
+/* Pagina Pagos */
+.grupo-pagos h1 {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+.flexContainerPrinci {
+  display: flex;
+  justify-content: center; }
+
+.tarjetaPagos {
+  background-color: #fdd778;
+  width: 360px;
+  height: 320px;
+  padding: 40px; 
+}
+
+.imgPagos {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 14%;
+}
+
+.imgPagos2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 14%;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  .tarjetaAbajoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .tarjeta {
+    top: 0;
+    left: 0; }
+  footer {
+    font-size: 15px; } }
+
+@media only screen and (max-width: 768px) {
+  .tarjetaAbajoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .tarjeta {
+    top: 0;
+    left: 0; }
+    .pie-pagina .grupo-1 {
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
+    }
+  }
